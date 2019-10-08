@@ -52,4 +52,8 @@ public class User {
     public void setFolder(List<Folder> folder) {
         this.folders = folder;
     }
+
+    public void addFolder(Folder folder){
+        this.folders.add(folder);
+    }
 }
